@@ -36,6 +36,8 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.534);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
 
 }
 
