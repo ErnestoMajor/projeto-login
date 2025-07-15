@@ -60,4 +60,6 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: .9em;
+    padding-bottom: 10px;
 }
+
