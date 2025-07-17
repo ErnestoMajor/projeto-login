@@ -56,10 +56,93 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
+    color: #a249e2;
+    text-shadow: 2px 3px 2px #000000b2;
 }
 
 div#formulario > p {
     font-size: .9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 10px;
 }
 
+div#campo {
+    background-color: #5f2c82;
+    margin: 4px 0px;
+    border-radius: 4px;
+
+}
+
+.login {
+    display: none;
+}
+.login2 {
+    padding-bottom: 6px;
+}
+
+.senha {
+    display: none;
+}
+.senha2 {
+    padding-bottom: 6px;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    background-color: #41026b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #b353f3;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    transition: 1s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form > input[type=reset] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    color: white;
+    background-color: #41026b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form > input[type=reset]:hover {
+    background-color: #b353f3;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    transition: 1s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    background-color: #251133;
+    border: 2px solid #9808f8;
+    color: #ffffff;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+form > a.botao:hover {
+    display: block;
+    background-color: #000000;
+    border-radius: 20px;
+    border: 2px solid #ff0000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+    transition: .1s;
+}
