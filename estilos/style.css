@@ -61,15 +61,17 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: .9em;
+    font-size: .8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 div#campo {
     background-color: #5f2c82;
     margin: 4px 0px;
-    border-radius: 4px;
+    border-radius: 5px;
+    height: 36px;
+    width: calc(100% - 29px);
 
 }
 
@@ -85,6 +87,17 @@ div#campo {
 }
 .senha2 {
     padding-bottom: 6px;
+}
+
+div#campo > input {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    width: calc(100% - 29px);
+    height: 33px;
+}
+
+div#campo > input:focus-within {
+    background-color: #ffffff;
 }
 
 form > input[type=submit] {

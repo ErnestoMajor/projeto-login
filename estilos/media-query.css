@@ -28,7 +28,7 @@
     }
 
     div#formulario > p {
-    font-size: 1.2em;
+    font-size: .8em;
 }
 
 .login2 {
@@ -38,6 +38,22 @@
 .senha2 {
     width: 60%;
 }
+
+    div#campo {
+        background-color: #5f2c82;
+        margin: 4px 0px;
+        border-radius: 5px;
+        height: 36px;
+        width: calc(100% - 300px);
+    }
+
+    div#campo > input {
+        background-color: #5f2c82;
+        border-radius: 5px;
+        width: calc(100% - 29px);
+        height: 33px;
+    }
+
 
     form > input[type=submit] {
         display: block;
@@ -83,7 +99,7 @@
     }
 
     div#formulario > p {
-    font-size: 1.5em;
+    font-size: .9em;
     }
 
     .login2 {
@@ -93,6 +109,24 @@
     .senha2 {
         width: 70%;
     }
+
+    div#campo {
+    background-color: #5f2c82;
+    margin: 4px 0px;
+    border-radius: 5px;
+    height: 36px;
+    width: calc(100% - 200px);
+    }
+
+
+
+     div#campo > input {
+        background-color: #5f2c82;
+        border-radius: 5px;
+        width: calc(100% - 29px);
+        height: 33px;
+    }
+
 
     form > input[type=submit] {
         display: block;
