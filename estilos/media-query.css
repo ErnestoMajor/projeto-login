@@ -28,16 +28,16 @@
     }
 
     div#formulario > p {
-    font-size: .8em;
-}
+        font-size: .8em;
+    }
 
-.login2 {
-   width: 60%;
-}
+    .login2 {
+      width: 60%;
+    }
 
-.senha2 {
-    width: 60%;
-}
+    .senha2 {
+      width: 60%;
+    }
 
     div#campo {
         background-color: #5f2c82;
@@ -118,15 +118,12 @@
     width: calc(100% - 200px);
     }
 
-
-
-     div#campo > input {
+    div#campo > input {
         background-color: #5f2c82;
         border-radius: 5px;
         width: calc(100% - 29px);
         height: 33px;
     }
-
 
     form > input[type=submit] {
         display: block;
